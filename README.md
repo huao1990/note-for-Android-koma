@@ -20,6 +20,11 @@ getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.La
  //display StatusBar 
 	StatusBarManager sbm = (StatusBarManager) this.getSystemService("statusbar");    
 	sbm.disable(StatusBarManager.DISABLE_NONE);
-	
-	#
+#
+
+3.小仓库怎么让项目回退到某个tag的git命令
+repo forall -c git checkout TAG
+
+
+
 
