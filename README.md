@@ -13,5 +13,13 @@ My note for the tourist of Android
 requestWindowFeature(Window.FEATURE_NO_TITLE); //无title  
 getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN); //全屏  
 
-#
+#在代码中禁用StatusBar的方法
+ //hide statusbar 
+	StatusBarManager sbm = (StatusBarManager) this.getSystemService("statusbar");    
+	sbm.disable(StatusBarManager.DISABLE_MASK);
+ //display StatusBar 
+	StatusBarManager sbm = (StatusBarManager) this.getSystemService("statusbar");    
+	sbm.disable(StatusBarManager.DISABLE_NONE);
+	
+	#
 
